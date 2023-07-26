@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenliving Services</title>
+    <meta name="description"
+        content="Greenliving Services offers landscaping and garden maintenance services. Learn about our company's background, mission, vision, and values. We provide services such as instant lawn installation, hard landscaping, irrigation, and hydroseeding/rehabilitation. We are committed to quality and corporate responsibility. Explore our website for more information.">
+
+    <!-- Favicon (Replace 'path_to_favicon.ico' with your actual favicon file) -->
+    <link rel="icon" type="image/x-icon" href="path_to_favicon.ico">
+
+    <!-- Bootstrap CSS Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+    <!-- Custom CSS Link (Add your styles here if needed) -->
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Custom animations for slideInRight and slideInLeft */
+        .slideInRight {
+            animation: slideInRightAnim 1s ease;
+        }
+
+        .slideInLeft {
+            animation: slideInLeftAnim 1s ease;
+        }
+
+        @keyframes slideInRightAnim {
+            0% {
+                opacity: 0;
+                transform: translateX(100%);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes slideInLeftAnim {
+            0% {
+                opacity: 0;
+                transform: translateX(-100%);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        /* Center h2 and make it green */
+        h2 {
+            text-align: center;
+            color: #00aa00;
+        }
+    </style>
+    
+    
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="logo.jpeg" alt="Greenliving Services Logo" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-animate" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-animate" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-animate" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-animate" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="container text-center">
+            <h2 class="slideInLeft"><strong><i>Welcome to</i> Greenliving Services</strong></h2>
+            <!-- <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel"> -->
+                <div class="carousel-inner" id="imageGallery">
+                    <!-- Add dynamic slides here using JavaScript -->
+                </div>
+                <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button> -->
+            </div>
+        </div>
+    </section>
+    <br><br>
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2 class="slideInRight">About GLS</h2><br>
+            <p class="slideInRight">Greenliving Services (Pty) Ltd is a private company founded by Boipelo Martin in March 2012
+                with 14 years of industry-specific experience in working on tendered projects with municipalities,
+                international investors, subcontracting, and private individuals. Our offices are situated in Monavoni in
+                centurion, Gauteng. At Greenliving Services (Pty) Ltd, we pride ourselves in only using the highest quality
+                plants, materials, and equipment to ensure that all our services are of the highest standard, making the
+                gardens we install and maintain delightfully inviting all year around. We have experience with all types of
+                gardens and understand that each landscape requires a different maintenance and watering regime.
+                We offer our services to various Residential, Commercial & Industrial Security Complexes/Estates; also
+                including Retail Centers, Recreational Facilities, Lodges, and Municipal Grounds as well as Academic
+                Institutions. We provide the above services to corporate as well as residential clients, Residential Gardens
+                (new designs, installations, and irrigation systems only). Most importantly, we understand that a garden means
+                different things to different people and serves different purposes. As a result, Greenliving Services (Pty)
+                Ltd works with clients to create unique turnkey solutions, garden designs, and outdoor living spaces;
+                tailored to their specific needs.</p><br><br>
+
+        <div class="image-gallery">
+    <div class="slider">
+      <img src="img/01.jpg" alt="Image 1">
+      <img src="img/02.jpg" alt="Image 2">
+      <img src="img/03.png" alt="Image 3">
+      <img src="img/99.png" alt="Image 4">
+      <img src="img/88.jpg" alt="Image 5">
+      <img src="img/77.jpeg" alt="Image 6">
+      <!-- <img src="Instant-Lawn.jpg" alt="Image 7">
+      <img src="90.jpeg" alt="Image 8"> -->
+
+</div><br><br>
+            </div>
+        </div>
+    </section>
+
+  <!-- Sliding Image Gallery -->
+<section id="gallery">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner" id="imageGallery">
+                        <!-- Add dynamic slides here using JavaScript -->
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- What We Do Section -->
+    <section id="services">
+        <div class="container">
+            <h2 class="slideInLeft">What We Do</h2><br>
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="slideInRight">Instant Lawn</h2><br>
+                    <p class="slideInRight">We specialize in the installation of new lawns. We establish lawns by means of sod,
+                        sprig, and seed. We do domestic and commercial installations. We specialize in sports field construction.
+                        We do parks and the construction of golf courses.</p>
+                </div>
+                <div class="col-md-6">
+                    <h2 class="slideInLeft">Hard Landscaping</h2><br>
+                    <p class="slideInLeft">Hard landscaping describes the physically hard construction materials, which are used
+                        to improve architectural features in a landscaped area. Greenliving Services (Pty) Ltd is actively
+                        involved with projects tackling pattern paving, installation of bollards, supply and erection of any
+                        type of playground equipment and custom-made external furniture and playground equipment in a variety
+                        of different environments, from residential complexes to municipal recreation areas, and domestic
+                        applications.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="slideInRight">Irrigation</h2><br>
+                    <p class="slideInRight">Greenliving Services (Pty) Ltd undertakes full design, procurement, installation, and
+                        commissioning of all irrigation systems, manual or automated, for domestic, commercial, sports, and
+                        agricultural facilities. We have extensive experience in these fields. Irrigation systems and types we
+                        have installed: We do domestic and commercial installations. We specialize in the installation of new
+                        lawns. We do parks and the construction of golf courses. We specialize in sports field construction.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <h2 class="slideInLeft">Hydroseeding / Rehabilitation</h2><br>
+                    <p class="slideInLeft">We offer erosion control methods on construction sites or as an alternative to the
+                        traditional process of seed broadcasting. It is very effective on steep slopes and sloping lawns. The
+                        advantage of hydroseeding is that large areas can be completed in very short timeframes with quick
+                        germination results. Should you require a different vegetation than grass as an end-result, we have a
+                        variety of low water requirement plants/groundcovers/creepers that can be used as an alternative.</p>
+                </div>
+            </div>
+            <h2 class="slideInRight">Goods and Services</h2><br>
+            <ul>
+                <li>Topsoil, Compost & lawn dressing</li>
+                <li>Playground equipment</li>
+                <li>Sports equipment and line markings</li>
+                <li>External / outdoor furniture</li>
+                <li>Landscape design and installation</li>
+                <li>Hard landscaping</li>
+                <li>Civil engineering</li>
+                <li>Bulk earthworks</li>
+                <li>Topsoil screening</li>
+                <li>Paving and kerb installation</li>
+                <li>Fertilizer applications</li>
+                <li>Irrigation design and installation</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+           
+            <!-- Add the Contact Us form or contact information here -->
+        </div>
+    </section>
+
+ <!-- Footer -->
+ <footer class="bg-dark text-white">
+    <div class="container">
+      <div class="footer-content">
+        <div class="why-choose">
+          <h3>WHY CHOOSE GREENLIVING SERVICES (PTY) LTD</h3><br>
+          <ul>
+            <li>
+              <strong>Knowledge</strong><br>
+              We bring over 10 years of knowledge and experience to your project. We have the creativity to offer “Out of the box” ideas and designs. We are familiar with the correct materials and plants to use for your project. We have the experience to do the specialized installations our competitors aren’t capable of producing!!
+            </li>
+            <li>
+              <strong>Service</strong><br>
+              We keep our promises and we deliver what we commit to. As a small company, we value YOU as a client and welcome any type of communication to give you the assurance that your project is headed in the right direction.
+            </li>
+            <li>
+              <strong>Quality</strong><br>
+              We have an untarnished reputation and will never sacrifice quality over quantity.
+            </li>
+          </ul>
+        </div>
+        <div class="contact-details">
+          <h3>Contact Us</h3>
+          <p><a href="https://www.greenlivingservices.co.za" target="_blank">www.greenlivingservices.co.za</a></p>
+          <div class="social-icons">
+            <a href="#" target="_blank"><img src="facebook-icon.png" alt="Facebook"></a>
+            <a href="#" target="_blank"><img src="instagram-icon.png" alt="Instagram"></a>
+            <a href="#" target="_blank"><img src="tiktok-icon.png" alt="TikTok"></a>
+          </div><br>
+          <h4>Contact Details</h4>
+          <p><a href="tel:+27694147620">+27 69 414 7620</a></p>
+          <p><a href="mailto:info@greenlivingservices.co.za">info@greenlivingservices.co.za</a></p>
+          <p>Address: 539 Granite Street, Monavali, Centurion</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+    <!-- Bootstrap JS and Popper.js (required for Bootstrap components) -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+{
+    "teamMembers": [
+      {
+        "name": "John Doe",
+        "position": "Landscape Architect",
+        "description": "John Doe is a landscape architect with 10 years of experience in designing and implementing various landscape projects.",
+        "image": "img/01.jpg"
+      },
+      {
+        "name": "Jane Smith",
+        "position": "Gardener",
+        "description": "Jane Smith is an experienced gardener with a passion for creating and maintaining beautiful gardens.",
+        "image": "img/jane-smith.jpg"
+      },
+      {
+        "name": "Michael Johnson",
+        "position": "Irrigation Specialist",
+        "description": "Michael Johnson is an irrigation specialist with expertise in designing and installing efficient irrigation systems.",
+        "image": "img/michael-johnson.jpg"
+      }
+    ]
+  }
+  
